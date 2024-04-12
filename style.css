@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-around;
+ align-items: center;
+ /* background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg); */
+   
+}
+
+ul , li{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    color: white;
+   
+}
+ul li a {
+    text-decoration: none;
+}
+
+.sample {
+    margin-top: -100px;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+
+
+.sample_title h1 {
+  font-size:90px;
+
+}
+h1 {
+    color: white;
+}
+span{
+    color: yellow;
+}
+ul{ 
+    color: white;
+}
+.navbar ul li a:hover {
+    color: yellow;
+}
+.navbar ul li a {
+    color: white;
+}
+
+.sample2 .but1:hover {
+    background-color: rgba( 0, 0, 0, .2 );
+}
+
+.sample2 .but2:hover {
+    background-color: rgb(143, 60, 184);
+}
+
+
+.sample1 {
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.sample {
+    bottom: 50px;
+}
+
+.sample2 :first-child {
+    background-color: transparent;
+    border: 3px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    width: 220px;
+    height: 65px;
+    color: white;
+    font-size: large;
+} 
+
+.sample2 :last-child {
+    background-color: transparent;
+
+    border:none;
+    cursor: pointer;
+    overflow: hidden;
+    width: 220px;
+    height: 65px;
+    background-color: rgb(221, 221, 29);
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+} 
+.sample2 {
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
+    
+}
+.but1 :hover {
+    color: transparent; 
+}
+
+.but2{
+    color: rgb(91, 91, 208);
+}
+
+.text {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:50px ;
+  flex-direction: column;
+
+
+
+}
+
+
+.echo h1 {
+    color: rgb(32, 32, 32);
+    font-size: 45px;
+    padding: 30px;
+   
+}
+.p {
+    width: 950px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 60px;
+    padding-top: -20px;
+}
+p {
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(65, 65, 65);
+}
+.btn {
+    width: 80%;
+ height: 300px;
+ display: flex;
+ justify-content: space-around;
+ align-items: end;
+ padding-bottom: 80px;
+
+}
+
+.border {
+    width: 25%;
+    height: 4px;
+    background-color: rgb(130, 121, 121);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress {
+    width: 60%;
+    background-color: orange;
+    height: 4px;
+
+}
+
+.dot{
+    background-color: orange;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge{
+    position: absolute;
+    bottom: 30px;
+    background-color: orange;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: orange;
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+
+
+.btn1 {
+    width: 300px;
+ height: 100px;
+ display: flex;
+
+ align-items: end;
+
+}
+
+.border1 {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(130, 121, 121);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.progress1{
+    width: 82%;
+    background-color: rgba(196, 199, 54, 0.971);
+    height: 4px;
+
+}
+
+.dot1{
+    background-color: rgba(196, 199, 54, 0.971);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge1{
+    position: absolute;
+    bottom: 30px;
+    background-color: rgba(196, 199, 54, 0.971);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge1::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgba(196, 199, 54, 0.971);
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+
+
+
+.btn2{
+    width: 300px;
+ height: 100px;
+ display: flex;
+ align-items: end;
+
+}
+
+.border2 {
+    width: 100%;
+    height: 4px;
+    background-color: rgb(130, 121, 121);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.progress2{
+    width: 86%;
+    background-color: rgba(34, 26, 98, 0.971);
+    height: 4px;
+
+}
+
+.dot2{
+    background-color:  rgba(34, 26, 98, 0.971);
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left: -1px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.badge2{
+    position: absolute;
+    bottom: 30px;
+    background-color: rgba(34, 26, 98, 0.971);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.badge2::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgba(34, 26, 98, 0.971);
+    bottom: -5px;
+    left: 40%;
+    transform: rotate(45deg);
+}
+
+.new {
+    width: 100%;
+    height: 500px;
+    background-color: blueviolet;
+    background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png )!important;
+}
+.cup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    font-size: x-large;
+}
+.cup h1 {
+    color: rgb(41, 41, 41);
+}
+
+
+.foto{
+    width: 100%;
+    height: 400px;
+    background-color: wheat;
+} 
+
+.foto1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(83, 66, 34);
+    display: flex;
+    padding-bottom: 30px;
+} 
+
+.id1{
+    width: 400px;
+    height: 400px;
+    background-color: coral;
+    background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-4.jpg);
+    background-size: cover;
+}
+
+.id2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(90, 24, 36);
+    background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-3.jpg);
+    background-size: cover;
+}
+.id3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(89, 177, 42);
+    background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-2.jpg);
+    background-size: cover;
+}
+
+.id4{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(22, 165, 165);
+    background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/03/front-page-project-1.jpg);
+    background-size: cover;
+    
+}
+
+
+.foto1 :hover {
+    color: black;
+}
+
+a :hover {
+    background-color: transparent;
+}
+
+
+.try {
+     max-width: 100%;
+     height: 100vh;
+     background-image: url(https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-counter.jpg);
+     background-color:#000000;
+    text-align: center;
+    background-size: cover;
+   
+
+}
+     
+.design {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.daire {
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    background-color: blue;
+    background-image: url(https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/58/2016/02/mike-muller-127x127.jpg);
+    background-size: cover;
+
+}
+
+
+.feature{
+    width: 60%;
+    height: 150px;
+    background-color:rgb(201, 190, 30);
+   z-index: 2;
+   position: relative;
+} 
+
+.for {
+     position: absolute;
+    bottom: -20px;
+    background-color:rgb(201, 190, 30);
+    padding: 6px 12px;
+    height: 50px;
+    width: 45px;
+    z-index: 1;
+    transform: rotate(45deg); 
+   
+}
+ h1 {
+    font-size: xx-large;
+ }
+
+.gap {
+    padding: 20px;
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+}
+h4 {
+    padding: 10px;
+    color: aliceblue;
+}
+
+.you {
+  
+    font-size: smaller;
+}
+
+ .you i:hover{
+   background-color: aliceblue;
+   border-radius: 9999px;
+}
+.bag {
+    width: 80%;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 35px;
+    gap: 300px;
+}
+.head {
+    color: rgb(232, 121, 18);
+}
+
+.head1 {
+    color: rgb(190, 208, 24);
+}
+
+.head2 {
+    color: rgb(133, 26, 165);
+}
+
+
+.head i,
+.head1 i,
+.head2 i {
+    margin-right: 10px; 
+    font-size: 20px; 
+}
+
+
+
+
+
+
+
+
